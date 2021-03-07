@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Paw Patrol Party APP</title>
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="CSS/styles.css" rel="stylesheet">
+  
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <p id="datetime"></p>
+      <h1>Pokemon Party</h1>
+      <p>It's time to party!</p>
+        
+    </header>
+    
+    <div class="container">  
+    <label for="characters">Select a Character</label>
+    <select class="u-full-width" id="characters"></select>
+    
+
+
+
+      <div>
+          
+        <form id="choose" action="#" method="post"></form>
+          <p>
+            <label for="telephone">Telephone</label>
+            <input id="telephone" name="telephone" type="text">
+            <span>The telephone number must be in the format of (555) 555-5555</span>
+        </p>
+          <p>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="text">
+            <span>Must be a valid email address</span> -->
+          </p>
+       
+        <p><label> <input type=radio name=size value="ryder"> Ryder </label></p>
+        <p><label> <input type=radio name=size value="marshall"> Marshall </label></p>
+        <p><label> <input type=radio name=size value="chase"> chase </label></p>
+        <p><label> <input type=radio name=size value="sky"> sky </label></p>
+  
+        <label for="party">Choose your preferred party date and time></label>
+        <input id="party" type="datetime-local" name="partydate" min="2021-06-01T08:30" max="2021-06-30T16:30" required>
+        <span class="validity"></span>
+        
+    </div>
+    <div>
+        <p><button>Book Party!</button></p>
+  
+    </div>
+    </form>
+    <!-- <div class="main">	
+      <h2></h2>
+      <ul id="characterList"></ul>	
+    </div> -->
+
+    </div>
+  </div>
+  
+  <script src="JS/testdate.js"></script>
+    <script src="JS/app.js"></script>
+  
+</body>
+</html>

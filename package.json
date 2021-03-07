@@ -1,0 +1,17 @@
+{
+  "name": "hash_generator",
+  "version": "0.0.1",
+  "description": "A password hash generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "LaShante Thomas",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.1"
+  }
+}
